@@ -6,8 +6,8 @@ on:
       - master
 jobs:
   print_1:
-  runruns-on: ubunty-latest
+    runs-on: ubunty-latest
 
     steps:
-    -name: print hello
-    run: echo "hello word"
+    - name: print hello
+      run : echo "hello word"
