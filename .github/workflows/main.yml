@@ -1,0 +1,13 @@
+name: GitHub-Acrions
+
+on: 
+  push:
+    branches:
+      - master
+jobs:
+  print_1:
+    runruns-on: ubunty-latest
+
+    steps:
+    -name: print hello
+    run: echo "hello word"
