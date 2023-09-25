@@ -10,10 +10,10 @@ jobs:
 
     steps:
     - name: print hello
-      run : echo "hello word"
+      run: echo "hello world"
   print_2:
     runs-on: ubuntu-latest
 
     steps:
-    - name: print helo
-      run : echo "helo word"
+    - name: print hello
+      run: echo "hello world"
