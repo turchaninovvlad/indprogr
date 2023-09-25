@@ -6,7 +6,7 @@ on:
       - master
 jobs:
   print_1:
-    runruns-on: ubunty-latest
+  runruns-on: ubunty-latest
 
     steps:
     -name: print hello
