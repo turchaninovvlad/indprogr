@@ -2,7 +2,7 @@
 #include <cmath>
 #include <windows.h>
 using namespace std;
-
+//fffcc+
 //C:\Users\ivc1-5\source\repos
 
 class andat {
