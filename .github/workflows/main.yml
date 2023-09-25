@@ -6,13 +6,13 @@ on:
       - master
 jobs:
   print_1:
-    runs-on: ubunty-latest
+    runs-on: ubuntu-latest
 
     steps:
     - name: print hello
       run : echo "hello word"
   print_2:
-    runs-on: ubunty-latest
+    runs-on: ubuntu-latest
 
     steps:
     - name: print helo
