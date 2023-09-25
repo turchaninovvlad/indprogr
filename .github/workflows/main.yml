@@ -11,3 +11,9 @@ jobs:
     steps:
     - name: print hello
       run : echo "hello word"
+  print_2:
+    runs-on: ubunty-latest
+
+    steps:
+    - name: print helo
+      run : echo "helo word"
